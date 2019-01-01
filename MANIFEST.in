@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include internal_aireldentalchairs *.css
+recursive-include internal_aireldentalchairs *.csv
+recursive-include internal_aireldentalchairs *.html
+recursive-include internal_aireldentalchairs *.ico
+recursive-include internal_aireldentalchairs *.js
+recursive-include internal_aireldentalchairs *.json
+recursive-include internal_aireldentalchairs *.md
+recursive-include internal_aireldentalchairs *.png
+recursive-include internal_aireldentalchairs *.py
+recursive-include internal_aireldentalchairs *.svg
+recursive-include internal_aireldentalchairs *.txt
+recursive-exclude internal_aireldentalchairs *.pyc

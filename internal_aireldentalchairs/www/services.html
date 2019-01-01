@@ -1,0 +1,43 @@
+{% extends "frappe_theme/templates/base.html" %}
+
+{% from "internal_aireldentalchairs/templates/includes/domain.html" import domain %}
+
+{% block title %}ERP for Services{% endblock %}
+
+{% block content %}
+
+{{ domain(
+	"Services",
+	"ERPNext for Services",
+	"ERPNext is ideal for service organizations with a integrated projects and people management.",
+	"services.jpg",
+	[
+		{
+			"title": "Project Management",
+			"content": "Manage all your projects with tasks, assignments and reminders and tracking expenses and billing."
+		},
+		{
+			"title": "Billing and Payments",
+			"content": "Track all things financial, including billings and payments with the ERPNext accounts module."
+		},
+		{
+			"title": "HR and Payroll",
+			"content": "Manage your employee data, payroll, leave and attendance, expense claims, all within your ERPNext system."
+		},
+		{
+			"title": "Time Tracking",
+			"content": "ERPNext helps you maintain timesheets against projects or tasks and also update them in bulk."
+		},
+		{
+			"title": "CRM and Sales",
+			"content": "Track and follow up with leads and opportunites and send out rule based emails and newsletters."
+		},
+		{
+			"title": "Support Helpdesk",
+			"content": "Manage your customer service and support with email integrated issue tracker."
+		},
+	]
+	)
+}}
+
+{% endblock %}
